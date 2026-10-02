@@ -13,7 +13,7 @@ export default async function CareersPage(props: { params: Promise<{ lang: strin
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-3 py-1 mb-8 rounded-full bg-slate-100 dark:bg-surface-container-low border border-slate-200 dark:border-border">
               <span className="w-1.5 h-1.5 rounded-full bg-[#006D3C]"></span>
-              <span className="text-[11px] font-mono tracking-wider font-semibold text-slate-700 dark:text-secondary uppercase">JOIN QODEVS</span>
+              <span className="text-[11px] font-mono tracking-wider font-semibold text-slate-700 dark:text-secondary uppercase">{t.hero_tag || "JOIN QODEVS"}</span>
             </div>
             {/* Headline */}
             <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-foreground mb-6 leading-tight">

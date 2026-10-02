@@ -3,7 +3,8 @@
     "home": "Home",
     "about": "About",
     "services": "Services",
-    "contact": "Contact"
+    "contact": "Contact",
+    "contact_btn": "Contact"
   },
   "hero": {
     "title1": "Development of",
@@ -68,7 +69,9 @@
     "benefit2_title": "Elite Engineering Culture",
     "benefit2_desc": "Collaborate with a highly skilled, remote-friendly team spread across Europe and Türkiye, strictly maintaining the highest European software engineering standards.",
     "benefit3_title": "Continuous Growth",
-    "benefit3_desc": "Master rigorous regulatory frameworks (ISO 13485, MDR), FHIR/HL7 APIs, and modern cloud architectures. We invest heavily in your technical education."
+    "benefit3_desc": "Master rigorous regulatory frameworks (ISO 13485, MDR), FHIR/HL7 APIs, and modern cloud architectures. We invest heavily in your technical education.",
+    "hero_tag": "JOIN QODEVS",
+    "spontaneous": "Send Spontaneous Application"
   },
   "about_expertise": {
     "tag": "About",
@@ -180,5 +183,49 @@
     "cta_title": "Ready to architect your certified medical application?",
     "cta_desc": "Discuss your clinical scope, target classification, and timelines directly with a technical director. We’ll review your intended use and outline an actionable roadmap.",
     "cta_btn": "Contact"
+  },
+  "contact_page": {
+    "title": "Start a\nConversation.",
+    "desc": "Connect with our senior medical software architects to accelerate your digital health initiatives. From DiGA certification pathways and MDR compliance to secure clinical cloud infrastructures, we deliver the engineering execution required to launch your regulated software securely.",
+    "direct_email_title": "Direct Email",
+    "direct_email_desc": "General inquiries, RFPs, and architecture consultation requests.",
+    "location_title": "Engineering Hub",
+    "location_desc": "Pamukkale Teknokent, Denizli, Türkiye. (ISO 13485 Certified Facility)",
+    "form_title": "Send a direct inquiry",
+    "form_desc": "We typically respond to technical and regulatory inquiries within 24 hours.",
+    "f_name": "Full Name",
+    "f_email": "Work Email",
+    "f_company": "Company / Organization",
+    "f_interest": "Primary Interest",
+    "f_int_opt1": "DiGA Fast-Track Development",
+    "f_int_opt2": "MDR Class I/IIa Software (SaMD)",
+    "f_int_opt3": "FHIR/HL7 Interoperability",
+    "f_int_opt4": "ISO 13485 QMS Consultation",
+    "f_int_opt5": "Other",
+    "f_msg": "Project Details or Message",
+    "f_btn": "Submit Inquiry"
+  },
+  "about_values": {
+    "leadership_title": "Leadership & Vision",
+    "leadership_tag": "Engineering Leadership & Founder",
+    "trusted_title": "Trusted by Innovative Health Tech Companies",
+    "v1_title": "Value 01",
+    "v1_name": "Reliability",
+    "v1_desc": "Reliability is one of our core values. We keep our promises and always deliver on time and with the highest quality. You can rely on us – from the initial consultation to the final implementation.",
+    "v2_title": "Value 02",
+    "v2_name": "Expertise",
+    "v2_desc": "With years of experience and in-depth knowledge, we successfully execute your digital projects. We tackle complex challenges and deliver measurable, high-quality results that provide real value to you.",
+    "v3_title": "Value 03",
+    "v3_name": "Sustainability",
+    "v3_desc": "Sustainability plays a key role for us. We develop solutions that not only last today but also remain relevant in the future. We focus on using resources efficiently and creating long-term value.",
+    "v4_title": "Value 04",
+    "v4_name": "Customer-Centered",
+    "v4_desc": "The success of our clients is always at the core of what we do. We listen carefully, analyze your needs, and develop tailored solutions that are perfectly aligned with your business. Our approach is based on trust, transparency, and a long-term partnership.",
+    "v5_title": "Value 05",
+    "v5_name": "Transparency",
+    "v5_desc": "We rely on clear communication and transparent processes, so you always know the status of your project. You maintain full control and are continuously informed about the progress, fostering efficient and trustworthy collaboration.",
+    "v6_title": "Value 06",
+    "v6_name": "Geographic Advantage",
+    "v6_desc": "Operating from our engineering hub in Türkiye allows us to deliver world-class medical software at highly optimized economics. You benefit from highly competitive European-standard development without compromising on quality, security, or compliance."
   }
 }

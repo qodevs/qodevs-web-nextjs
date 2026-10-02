@@ -56,7 +56,7 @@ export default function AboutClient({ dict }: { dict: any }) {
 </motion.div>
 {/*  Text & Vision Column  */}
 <div className="lg:col-span-7 flex flex-col items-start gap-6">
-<h3 className="font-label-regulatory text-label-regulatory tracking-widest uppercase text-secondary font-bold mb-1">Leadership &amp; Vision</h3>
+<h3 className="font-label-regulatory text-label-regulatory tracking-widest uppercase text-secondary font-bold mb-1">{dict.about_values.leadership_title}</h3>
 <h2 className="font-headline-lg text-headline-lg text-on-surface tracking-tight">
           Committed to the highest standards of digital transformation.
         </h2>
@@ -96,11 +96,11 @@ export default function AboutClient({ dict }: { dict: any }) {
 <span className="material-symbols-outlined text-[26px]">task_alt</span>
 </div>
 <div className="flex flex-col gap-2">
-<div className="font-label-regulatory text-label-regulatory uppercase text-primary font-bold">Value 01</div>
-<h3 className="font-headline-sm text-headline-sm text-on-surface">Reliability</h3>
+<div className="font-label-regulatory text-label-regulatory uppercase text-primary font-bold">{dict.about_values.v1_title}</div>
+<h3 className="font-headline-sm text-headline-sm text-on-surface">{dict.about_values.v1_name}</h3>
 </div>
 <p className="font-body-md text-body-md text-secondary leading-relaxed">
-              Reliability is one of our core values. We keep our promises and always deliver on time and with the highest quality. You can rely on us – from the initial consultation to the final implementation.
+              {dict.about_values.v1_desc}
             </p>
 </div>
 {/*  Card 2: Expertise  */}
@@ -109,11 +109,11 @@ export default function AboutClient({ dict }: { dict: any }) {
 <span className="material-symbols-outlined text-[26px]">psychology</span>
 </div>
 <div className="flex flex-col gap-2">
-<div className="font-label-regulatory text-label-regulatory uppercase text-primary font-bold">Value 02</div>
-<h3 className="font-headline-sm text-headline-sm text-on-surface">Expertise</h3>
+<div className="font-label-regulatory text-label-regulatory uppercase text-primary font-bold">{dict.about_values.v2_title}</div>
+<h3 className="font-headline-sm text-headline-sm text-on-surface">{dict.about_values.v2_name}</h3>
 </div>
 <p className="font-body-md text-body-md text-secondary leading-relaxed">
-              With years of experience and in-depth knowledge, we successfully execute your digital projects. We tackle complex challenges and deliver measurable, high-quality results that provide real value to you.
+              {dict.about_values.v2_desc}
             </p>
 </div>
 {/*  Card 3: Sustainability  */}
@@ -122,11 +122,11 @@ export default function AboutClient({ dict }: { dict: any }) {
 <span className="material-symbols-outlined text-[26px]">eco</span>
 </div>
 <div className="flex flex-col gap-2">
-<div className="font-label-regulatory text-label-regulatory uppercase text-primary font-bold">Value 03</div>
-<h3 className="font-headline-sm text-headline-sm text-on-surface">Sustainability</h3>
+<div className="font-label-regulatory text-label-regulatory uppercase text-primary font-bold">{dict.about_values.v3_title}</div>
+<h3 className="font-headline-sm text-headline-sm text-on-surface">{dict.about_values.v3_name}</h3>
 </div>
 <p className="font-body-md text-body-md text-secondary leading-relaxed">
-              Sustainability plays a key role for us. We develop solutions that not only last today but also remain relevant in the future. We focus on using resources efficiently and creating long-term value.
+              {dict.about_values.v3_desc}
             </p>
 </div>
 
@@ -136,11 +136,11 @@ export default function AboutClient({ dict }: { dict: any }) {
 <span className="material-symbols-outlined text-[26px]">favorite</span>
 </div>
 <div className="flex flex-col gap-2">
-<div className="font-label-regulatory text-label-regulatory uppercase text-primary font-bold">Value 04</div>
-<h3 className="font-headline-sm text-headline-sm text-on-surface">Customer-Centered</h3>
+<div className="font-label-regulatory text-label-regulatory uppercase text-primary font-bold">{dict.about_values.v4_title}</div>
+<h3 className="font-headline-sm text-headline-sm text-on-surface">{dict.about_values.v4_name}</h3>
 </div>
 <p className="font-body-md text-body-md text-secondary leading-relaxed">
-              The success of our clients is always at the core of what we do. We listen carefully, analyze your needs, and develop tailored solutions that are perfectly aligned with your business. Our approach is based on trust, transparency, and a long-term partnership.
+              {dict.about_values.v4_desc}
             </p>
 </div>
 {/*  Card 5: Transparency  */}
@@ -149,11 +149,11 @@ export default function AboutClient({ dict }: { dict: any }) {
 <span className="material-symbols-outlined text-[26px]">visibility</span>
 </div>
 <div className="flex flex-col gap-2">
-<div className="font-label-regulatory text-label-regulatory uppercase text-primary font-bold">Value 05</div>
-<h3 className="font-headline-sm text-headline-sm text-on-surface">Transparency</h3>
+<div className="font-label-regulatory text-label-regulatory uppercase text-primary font-bold">{dict.about_values.v5_title}</div>
+<h3 className="font-headline-sm text-headline-sm text-on-surface">{dict.about_values.v5_name}</h3>
 </div>
 <p className="font-body-md text-body-md text-secondary leading-relaxed">
-              We rely on clear communication and transparent processes, so you always know the status of your project. You maintain full control and are continuously informed about the progress, fostering efficient and trustworthy collaboration.
+              {dict.about_values.v5_desc}
             </p>
 </div>
 
@@ -163,11 +163,11 @@ export default function AboutClient({ dict }: { dict: any }) {
 <span className="material-symbols-outlined text-[26px]">public</span>
 </div>
 <div className="flex flex-col gap-2">
-<div className="font-label-regulatory text-label-regulatory uppercase text-primary font-bold">Value 06</div>
-<h3 className="font-headline-sm text-headline-sm text-on-surface">Geographic Advantage</h3>
+<div className="font-label-regulatory text-label-regulatory uppercase text-primary font-bold">{dict.about_values.v6_title}</div>
+<h3 className="font-headline-sm text-headline-sm text-on-surface">{dict.about_values.v6_name}</h3>
 </div>
 <p className="font-body-md text-body-md text-secondary leading-relaxed">
-              Operating from our engineering hub in Türkiye allows us to deliver world-class medical software at highly optimized economics. You benefit from highly competitive European-standard development without compromising on quality, security, or compliance.
+              {dict.about_values.v6_desc}
             </p>
 </div>
 
@@ -178,7 +178,7 @@ export default function AboutClient({ dict }: { dict: any }) {
 {/*  SECTION 4.5: Client Logos  */}
 <section className="w-full border-t border-b border-border/40 bg-white/30 dark:bg-[#111111]/30 py-16">
   <div className="max-w-5xl mx-auto px-6 lg:px-12 flex flex-col items-center gap-10">
-    <p className="font-label-md text-label-md text-secondary uppercase tracking-widest font-semibold text-center">Trusted by Innovative Health Tech Companies</p>
+    <p className="font-label-md text-label-md text-secondary uppercase tracking-widest font-semibold text-center">{dict.about_values.trusted_title}</p>
     <div className="flex flex-wrap items-center justify-center gap-12 lg:gap-24 transition-all duration-500">
       <img src="/ref-mementor.png" alt="Mementor" className="h-12 md:h-14 lg:h-16 w-auto object-contain" />
       <img src="/ref-mobilehealth.png" alt="Mobile Health" className="h-12 md:h-14 lg:h-16 w-auto object-contain" />

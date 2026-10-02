@@ -24,7 +24,7 @@ const itemVariants = {
 
 
 
-export default function ServicesClient({ dict }: { dict: any }) {
+export default function ServicesClient({ dict, lang }: { dict: any, lang: string }) {
   const t = dict.services_page;
   // Mouse Follower Logic
   const mouseX = useMotionValue(0);
@@ -671,7 +671,7 @@ export default function ServicesClient({ dict }: { dict: any }) {
                 </p>
                 
                 <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
-                  <a href="/contact" className="px-8 py-3.5 rounded-full bg-[#0d9488] text-white font-semibold text-sm hover:bg-[#3ea76b] transition-all text-center shadow-sm hover:shadow-md">
+                  <a href={`/${lang}/contact`} className="px-8 py-3.5 rounded-full bg-[#0d9488] text-white font-semibold text-sm hover:bg-[#3ea76b] transition-all text-center shadow-sm hover:shadow-md">
                     Contact
                   </a>
                 </div>

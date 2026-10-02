@@ -3,7 +3,8 @@
     "home": "Startseite",
     "about": "Über uns",
     "services": "Leistungen",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "contact_btn": "Kontakt"
   },
   "hero": {
     "title1": "Entwicklung von",
@@ -68,7 +69,9 @@
     "benefit2_title": "Elite-Engineering-Kultur",
     "benefit2_desc": "Arbeiten Sie mit einem hochqualifizierten, remote-freundlichen Team in Europa und der Türkei zusammen und wahren Sie höchste europäische Software-Standards.",
     "benefit3_title": "Kontinuierliches Wachstum",
-    "benefit3_desc": "Meistern Sie strenge regulatorische Rahmenbedingungen (ISO 13485, MDR), FHIR/HL7-APIs und Cloud-Architekturen. Wir investieren stark in Ihre Ausbildung."
+    "benefit3_desc": "Meistern Sie strenge regulatorische Rahmenbedingungen (ISO 13485, MDR), FHIR/HL7-APIs und Cloud-Architekturen. Wir investieren stark in Ihre Ausbildung.",
+    "hero_tag": "QODEVS BEITRETEN",
+    "spontaneous": "Initiativbewerbung senden"
   },
   "about_expertise": {
     "tag": "Über Uns",
@@ -180,5 +183,49 @@
     "cta_title": "Bereit, Ihre zertifizierte medizinische Anwendung zu entwickeln?",
     "cta_desc": "Besprechen Sie Ihren klinischen Geltungsbereich, die Zielklassifizierung und Zeitpläne direkt mit einem Technischen Direktor. Wir prüfen Ihre Zweckbestimmung und skizzieren eine umsetzbare Roadmap.",
     "cta_btn": "Kontakt"
+  },
+  "contact_page": {
+    "title": "Lassen Sie uns\nsprechen.",
+    "desc": "Verbinden Sie sich mit unseren erfahrenen medizinischen Softwarearchitekten, um Ihre Digital-Health-Initiativen zu beschleunigen. Von DiGA-Zulassungswegen und MDR-Compliance bis hin zu sicheren klinischen Cloud-Infrastrukturen liefern wir die technische Ausführung, die erforderlich ist, um Ihre regulierte Software sicher auf den Markt zu bringen.",
+    "direct_email_title": "Direkte E-Mail",
+    "direct_email_desc": "Allgemeine Anfragen, Ausschreibungen und Anfragen zur Architekturberatung.",
+    "location_title": "Engineering Hub",
+    "location_desc": "Pamukkale Teknokent, Denizli, Türkei. (ISO 13485 zertifizierte Einrichtung)",
+    "form_title": "Senden Sie eine direkte Anfrage",
+    "form_desc": "Wir beantworten technische und regulatorische Anfragen in der Regel innerhalb von 24 Stunden.",
+    "f_name": "Vollständiger Name",
+    "f_email": "Geschäftliche E-Mail",
+    "f_company": "Unternehmen / Organisation",
+    "f_interest": "Primäres Interesse",
+    "f_int_opt1": "DiGA Fast-Track Entwicklung",
+    "f_int_opt2": "MDR Klasse I/IIa Software (SaMD)",
+    "f_int_opt3": "FHIR/HL7 Interoperabilität",
+    "f_int_opt4": "ISO 13485 QMS Beratung",
+    "f_int_opt5": "Sonstiges",
+    "f_msg": "Projektdetails oder Nachricht",
+    "f_btn": "Anfrage senden"
+  },
+  "about_values": {
+    "leadership_title": "Führung & Vision",
+    "leadership_tag": "Technische Leitung & Gründer",
+    "trusted_title": "Vertrauen von innovativen Health-Tech-Unternehmen",
+    "v1_title": "Wert 01",
+    "v1_name": "Zuverlässigkeit",
+    "v1_desc": "Zuverlässigkeit ist einer unserer Kernwerte. Wir halten unsere Versprechen und liefern immer pünktlich und in höchster Qualität. Sie können sich auf uns verlassen – von der ersten Beratung bis zur finalen Umsetzung.",
+    "v2_title": "Wert 02",
+    "v2_name": "Expertise",
+    "v2_desc": "Mit jahrelanger Erfahrung und fundiertem Fachwissen setzen wir Ihre digitalen Projekte erfolgreich um. Wir stellen uns komplexen Herausforderungen und liefern messbare, qualitativ hochwertige Ergebnisse, die Ihnen echten Mehrwert bieten.",
+    "v3_title": "Wert 03",
+    "v3_name": "Nachhaltigkeit",
+    "v3_desc": "Nachhaltigkeit spielt für uns eine Schlüsselrolle. Wir entwickeln Lösungen, die nicht nur heute Bestand haben, sondern auch in Zukunft relevant bleiben. Wir setzen auf effiziente Ressourcennutzung und langfristige Wertschöpfung.",
+    "v4_title": "Wert 04",
+    "v4_name": "Kundenzentrierung",
+    "v4_desc": "Der Erfolg unserer Kunden steht für uns immer im Mittelpunkt. Wir hören aufmerksam zu, analysieren Ihre Bedürfnisse und entwickeln maßgeschneiderte Lösungen, die perfekt auf Ihr Unternehmen abgestimmt sind. Unser Ansatz basiert auf Vertrauen, Transparenz und einer langfristigen Partnerschaft.",
+    "v5_title": "Wert 05",
+    "v5_name": "Transparenz",
+    "v5_desc": "Wir setzen auf klare Kommunikation und transparente Prozesse, damit Sie immer über den Status Ihres Projekts informiert sind. Sie behalten die volle Kontrolle und werden kontinuierlich über den Fortschritt informiert, was eine effiziente und vertrauensvolle Zusammenarbeit fördert.",
+    "v6_title": "Wert 06",
+    "v6_name": "Geografischer Vorteil",
+    "v6_desc": "Von unserem Engineering-Hub in der Türkei aus können wir erstklassige medizinische Software zu stark optimierten Konditionen liefern. Sie profitieren von einer äußerst wettbewerbsfähigen Entwicklung nach europäischen Standards, ohne Kompromisse bei Qualität, Sicherheit oder Compliance einzugehen."
   }
 }
