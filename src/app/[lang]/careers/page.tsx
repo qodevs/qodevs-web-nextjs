@@ -1,4 +1,9 @@
-export default function CareersPage() {
+import { getDictionary } from "@/dictionaries";
+
+export default async function CareersPage(props: { params: Promise<{ lang: string }> }) {
+  const params = await props.params;
+  const dict = await getDictionary(params.lang as 'en' | 'de');
+  const t = dict.careers;
   return (
     <main className="flex-grow w-full bg-white dark:bg-background">
       {/* BEGIN: HeroSection */}
@@ -16,7 +21,7 @@ export default function CareersPage() {
             </h1>
             {/* Subtitle */}
             <p className="text-lg text-slate-600 dark:text-secondary leading-relaxed font-normal">
-              We build software that changes lives. Join a team of elite engineers dedicated to clinical certainty, fast-track digital therapeutics, and uncompromised quality.
+              {t.hero_desc}
             </p>
           </div>
         </div>
@@ -40,7 +45,7 @@ export default function CareersPage() {
                 Deep Engineering Focus
               </h3>
               <p className="text-sm text-slate-600 dark:text-secondary leading-relaxed font-normal">
-                We don't build superficial tech. You'll architect mission-critical medical systems and DiGA platforms where your code directly impacts patient health and lives.
+                {t.benefit1_desc}
               </p>
             </article>
             {/* Card 2 */}
@@ -49,7 +54,7 @@ export default function CareersPage() {
                 Elite Engineering Culture
               </h3>
               <p className="text-sm text-slate-600 dark:text-secondary leading-relaxed font-normal">
-                Collaborate with a highly skilled, remote-friendly team spread across Europe and Türkiye, strictly maintaining the highest European software engineering standards.
+                {t.benefit2_desc}
               </p>
             </article>
             {/* Card 3 */}
@@ -58,7 +63,7 @@ export default function CareersPage() {
                 Continuous Growth
               </h3>
               <p className="text-sm text-slate-600 dark:text-secondary leading-relaxed font-normal">
-                Master rigorous regulatory frameworks (ISO 13485, MDR), FHIR/HL7 APIs, and modern cloud architectures. We invest heavily in your technical education.
+                {t.benefit3_desc}
               </p>
             </article>
           </div>
@@ -79,7 +84,7 @@ export default function CareersPage() {
               No open positions at the moment.
             </h3>
             <p className="text-slate-600 dark:text-secondary text-sm leading-relaxed max-w-xl mx-auto mb-8 font-normal">
-              We currently do not have any active openings, but we are always on the lookout for exceptional talent. Check back later or follow us on LinkedIn.
+              {t.no_openings_desc}
             </p>
             <a className="inline-flex items-center text-sm font-semibold text-[#006D3C] hover:text-[#00552E] transition-colors" href="mailto:info@qodevs.com">
               Send Spontaneous Application

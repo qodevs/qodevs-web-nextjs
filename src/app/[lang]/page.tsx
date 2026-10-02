@@ -16,10 +16,10 @@ export default async function Home(props: { params: Promise<{ lang: string }> })
       
       <div className="w-full relative">
         <div className="flex flex-col justify-center">
-          <AboutExpertise />
+          <AboutExpertise dict={dict.about_expertise} />
         </div>
         <div className="flex flex-col justify-center">
-          <ServicesAccordion />
+          <ServicesAccordion dict={dict.services_accordion} />
         </div>
       </div>
     </main>

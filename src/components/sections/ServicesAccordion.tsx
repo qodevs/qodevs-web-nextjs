@@ -4,34 +4,34 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 
-const SERVICES = [
-  {
-    id: "01",
-    title: "Software as a Medical Device (SaMD)",
-    description: "End-to-end engineering of mobile and web applications under strict IEC 62304 life cycle compliance. We architect scalable, user-centric software for MDR Class I and IIa medical devices.",
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2940&auto=format&fit=crop"
-  },
-  {
-    id: "02",
-    title: "DiGA Fast-Track Readiness",
-    description: "Turnkey technical development and BSI TR-03161 cryptographic implementation to guarantee immediate listing readiness for BfArM reimbursement in Germany.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto=format&fit=crop"
-  },
-  {
-    id: "03",
-    title: "Medical Cloud & FHIR / HL7 APIs",
-    description: "Scalable, high-availability backend architectures and secure interoperability interfaces tailored for modern healthcare data pipelines and hospital IT integrations.",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2944&auto=format&fit=crop"
-  },
-  {
-    id: "04",
-    title: "eQMS & Regulatory Compliance",
-    description: "Automated ISO 13485 compliance engines, continuous risk management (ISO 14971), and fully integrated Quality Management Systems embedded directly into your CI/CD workflows.",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2940&auto=format&fit=crop"
-  }
-];
+export function ServicesAccordion({ dict }: { dict: any }) {
+  const SERVICES = [
+    {
+      id: "01",
+      title: dict.s1_title,
+      description: dict.s1_desc,
+      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2940&auto=format&fit=crop"
+    },
+    {
+      id: "02",
+      title: dict.s2_title,
+      description: dict.s2_desc,
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto=format&fit=crop"
+    },
+    {
+      id: "03",
+      title: dict.s3_title,
+      description: dict.s3_desc,
+      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2944&auto=format&fit=crop"
+    },
+    {
+      id: "04",
+      title: dict.s4_title,
+      description: dict.s4_desc,
+      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2940&auto=format&fit=crop"
+    }
+  ];
 
-export function ServicesAccordion() {
   const [activeService, setActiveService] = useState(SERVICES[0]);
 
   return (
@@ -43,15 +43,15 @@ export function ServicesAccordion() {
           <div>
             <div className="flex items-center gap-2 mb-6">
               <span className="w-1.5 h-1.5 bg-muted-foreground" />
-              <span className="text-[10px] font-bold tracking-[0.2em] text-muted-foreground uppercase">Our Services</span>
+              <span className="text-[10px] font-bold tracking-[0.2em] text-muted-foreground uppercase">{dict.tag}</span>
             </div>
             <h2 className="text-[40px] md:text-[56px] font-medium text-foreground leading-tight">
-              Certified Development <br/> for Digital Health
+              {dict.title.split("\n").map((line: string, i: number) => <span key={i}>{line}<br/></span>)}
             </h2>
           </div>
           <div className="lg:flex lg:items-end lg:justify-end">
             <p className="text-muted-foreground max-w-sm text-[13px] leading-relaxed">
-              From initial architecture to Notified Body audits, we provide turnkey medical software engineering and continuous regulatory compliance tailored strictly for European digital health innovators.
+              {dict.desc}
             </p>
           </div>
         </div>
