@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
 
-export default function DigaClient({ dict }: { dict: any }) {
+export default function DigaClient({ dict, lang }: { dict: any, lang: string }) {
   const t = dict.diga_page;
   const cta = dict.about_page;
   return (
@@ -195,7 +195,7 @@ export default function DigaClient({ dict }: { dict: any }) {
                 </div>
               </div>
               <div className="flex items-center gap-2">
-                <span className="text-xs uppercase tracking-widest text-muted-foreground font-bold mr-2">Tagged:</span>
+                <span className="text-xs uppercase tracking-widest text-muted-foreground font-bold mr-2">{t.tagged}</span>
                 <span className="px-2.5 py-1 rounded bg-surface-container-low text-xs text-foreground font-semibold">BfArM</span>
                 <span className="px-2.5 py-1 rounded bg-surface-container-low text-xs text-foreground font-semibold">DiGA</span>
                 <span className="px-2.5 py-1 rounded bg-surface-container-low text-xs text-foreground font-semibold">MDR</span>
@@ -232,7 +232,7 @@ export default function DigaClient({ dict }: { dict: any }) {
                 <p className="text-lg text-secondary leading-relaxed font-medium">
                   {cta.cta_desc}
                 </p>
-                <Link href="/contact" className="group inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-primary text-white text-[13px] font-semibold hover:opacity-90 hover:scale-105 transition-all duration-300 cursor-pointer w-fit">
+                <Link href={`/${lang}/contact`} className="group inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-primary text-white text-[13px] font-semibold hover:opacity-90 hover:scale-105 transition-all duration-300 cursor-pointer w-fit">
                   <span>{cta.cta_btn}</span>
                   <ArrowRight strokeWidth={1.5} className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Link>

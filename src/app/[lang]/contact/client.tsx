@@ -1,6 +1,6 @@
 "use client";
 
-export default function ContactClient({ dict }: { dict: any }) {
+export default function ContactClient({ dict, lang }: { dict: any, lang: string }) {
   const t = dict.contact_page;
   return (
     <main className="w-full pt-20 bg-background min-h-[calc(100vh-20rem)]">

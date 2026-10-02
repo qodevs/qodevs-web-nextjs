@@ -3,7 +3,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
-export default function AboutClient({ dict }: { dict: any }) {
+export default function AboutClient({ dict, lang }: { dict: any, lang: string }) {
   const t = dict.about_page;
   return (
 <main className="w-full pt-20 bg-background min-h-screen"><div className="flex flex-col w-full">
@@ -213,7 +213,7 @@ export default function AboutClient({ dict }: { dict: any }) {
         <p className="text-lg text-secondary leading-relaxed font-medium">
           {t.cta_desc}
         </p>
-        <Link href="/contact" className="group inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-primary text-white text-[13px] font-semibold hover:opacity-90 hover:scale-105 transition-all duration-300 cursor-pointer w-fit">
+        <Link href={`/${lang}/contact`} className="group inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-primary text-white text-[13px] font-semibold hover:opacity-90 hover:scale-105 transition-all duration-300 cursor-pointer w-fit">
           <span>{t.cta_btn}</span>
           <ArrowRight strokeWidth={1.5} className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
         </Link>

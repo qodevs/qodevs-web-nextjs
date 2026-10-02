@@ -104,7 +104,7 @@ export default async function RootLayout(
         <Footer lang={lang} />
 
         {/* Floating Mobile Contact Button */}
-        <Link href="/contact" className="md:hidden fixed bottom-6 right-6 z-50 bg-primary text-white w-14 h-14 rounded-full shadow-xl flex items-center justify-center hover:scale-105 active:scale-95 transition-all">
+        <Link href={`/${lang}/contact`} className="md:hidden fixed bottom-6 right-6 z-50 bg-primary text-white w-14 h-14 rounded-full shadow-xl flex items-center justify-center hover:scale-105 active:scale-95 transition-all">
           <span className="material-symbols-outlined text-white text-[24px]">chat</span>
         </Link>
       </body>

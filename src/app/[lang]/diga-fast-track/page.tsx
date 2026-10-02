@@ -4,5 +4,5 @@ import DigaClient from "./client";
 export default async function Page(props: { params: Promise<{ lang: string }> }) {
   const params = await props.params;
   const dict = await getDictionary(params.lang as 'en' | 'de');
-  return <DigaClient dict={dict} />;
+  return <DigaClient dict={dict} lang={params.lang} />;
 }
