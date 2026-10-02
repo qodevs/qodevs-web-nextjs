@@ -77,7 +77,7 @@ export default function ServicesClient({ dict, lang }: { dict: any, lang: string
               transition={{ duration: 0.5, delay: 0.1 }}
               className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-foreground leading-[1.12] mb-8 max-w-4xl"
             >
-              Building compliant medical software, <span className="text-transparent bg-clip-text bg-gradient-to-r from-foreground via-primary to-primary via-primary to-primary">simply and precisely.</span>
+              {t.hero_main_title} <span className="text-transparent bg-clip-text bg-gradient-to-r from-foreground via-primary to-primary via-primary to-primary">{t.hero_main_title_highlight}</span>
             </motion.h1>
             
             {/* Subheading */}
@@ -98,10 +98,10 @@ export default function ServicesClient({ dict, lang }: { dict: any, lang: string
               className="flex flex-col sm:flex-row items-center gap-4 mb-16"
             >
               <a href="#contact" className="w-full sm:w-auto px-8 py-3.5 rounded-full bg-[#0d9488] text-white font-semibold text-sm hover:opacity-95 transition-all shadow-sm hover:shadow text-center">
-                Book a Consultation
+                {t.btn_book}
               </a>
               <a href="#capabilities" className="w-full sm:w-auto px-8 py-3.5 rounded-full bg-card text-foreground border border-border font-semibold text-sm hover:bg-muted transition-all text-center">
-                Explore Services
+                {t.btn_explore}
               </a>
             </motion.div>
             
@@ -121,28 +121,28 @@ export default function ServicesClient({ dict, lang }: { dict: any, lang: string
               >
                 {/* SET 1 */}
                 <div className="flex items-center gap-8">
-                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>ISO 13485 Certified QMS</span>
+                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>{t.hero_tag1}</span>
                   <span className="text-border/60">•</span>
-                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>IEC 62304 Life Cycle</span>
+                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>{t.hero_tag2}</span>
                   <span className="text-border/60">•</span>
-                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>MDR Class I & IIa Compliant</span>
+                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>{t.hero_tag3}</span>
                   <span className="text-border/60">•</span>
-                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>DiGA Fast-Track Ready</span>
+                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>{t.hero_tag4}</span>
                   <span className="text-border/60">•</span>
-                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>ISO 27001 & DSGVO</span>
+                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>{t.hero_tag5}</span>
                   <span className="text-border/60">•</span>
                 </div>
                 {/* SET 2 (Duplicate for seamless loop) */}
                 <div className="flex items-center gap-8">
-                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>ISO 13485 Certified QMS</span>
+                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>{t.hero_tag1}</span>
                   <span className="text-border/60">•</span>
-                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>IEC 62304 Life Cycle</span>
+                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>{t.hero_tag2}</span>
                   <span className="text-border/60">•</span>
-                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>MDR Class I & IIa Compliant</span>
+                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>{t.hero_tag3}</span>
                   <span className="text-border/60">•</span>
-                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>DiGA Fast-Track Ready</span>
+                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>{t.hero_tag4}</span>
                   <span className="text-border/60">•</span>
-                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>ISO 27001 & DSGVO</span>
+                  <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-none bg-primary"></span>{t.hero_tag5}</span>
                   <span className="text-border/60">•</span>
                 </div>
               </motion.div>
@@ -164,19 +164,19 @@ export default function ServicesClient({ dict, lang }: { dict: any, lang: string
               className="flex flex-col gap-6 mb-16 md:mb-20">
               <div className="flex items-center gap-4">
                 <span className="px-3 py-1 bg-surface-container-low text-on-surface text-[10px] font-bold tracking-widest uppercase rounded-none">
-                  Our Expertise
+                  {t.tag_expertise}
                 </span>
                 <span className="text-[10px] text-secondary font-bold tracking-widest uppercase">
-                  // Specialized Core Disciplines
+                  {t.tag_disc}
                 </span>
               </div>
               
               <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8">
                 <h2 className="text-4xl sm:text-5xl lg:text-[56px] font-bold tracking-tight text-foreground leading-[1.1] max-w-2xl">
-                  Medical Software Engineering Disciplines
+                  {t.title_disc}
                 </h2>
                 <p className="text-base text-secondary leading-relaxed max-w-sm lg:pb-2">
-                  Structured for venture-backed digital health scaleups, hospital systems, and global IVD/MedTech leaders.
+                  {t.desc_disc}
                 </p>
               </div>
             </motion.div>
@@ -191,12 +191,12 @@ export default function ServicesClient({ dict, lang }: { dict: any, lang: string
               <motion.div variants={itemVariants} className="bg-white dark:bg-[#111111] p-8 md:p-10 flex flex-col h-full hover:bg-white/80 dark:hover:bg-[#111111]/80 transition-colors">
                 <div className="flex items-center justify-between mb-8">
                   <span className="text-[10px] font-bold text-primary tracking-widest uppercase">
-                    Discipline 01
+                    {t.d1_tag || "Discipline 01"}
                   </span>
                   <Activity className="w-5 h-5 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-4">
-                  DiGA Fast-Track Development
+                  {t.d1_title || "DiGA Fast-Track Development"}
                 </h3>
                 <p className="text-sm text-secondary leading-relaxed mb-8 flex-grow">
                   Turnkey engineering for BfArM reimbursement in Germany and PECAN in France. We integrate data protection, secure server enclaves, and medical proof of benefit engines.
@@ -212,7 +212,7 @@ export default function ServicesClient({ dict, lang }: { dict: any, lang: string
               <motion.div variants={itemVariants} className="bg-white dark:bg-[#111111] p-8 md:p-10 flex flex-col h-full hover:bg-white/80 dark:hover:bg-[#111111]/80 transition-colors">
                 <div className="flex items-center justify-between mb-8">
                   <span className="text-[10px] font-bold text-primary tracking-widest uppercase">
-                    Discipline 02
+                    {t.d2_tag || "Discipline 02"}
                   </span>
                   <Settings className="w-5 h-5 text-primary" />
                 </div>
@@ -233,7 +233,7 @@ export default function ServicesClient({ dict, lang }: { dict: any, lang: string
               <motion.div variants={itemVariants} className="bg-white dark:bg-[#111111] p-8 md:p-10 flex flex-col h-full hover:bg-white/80 dark:hover:bg-[#111111]/80 transition-colors">
                 <div className="flex items-center justify-between mb-8">
                   <span className="text-[10px] font-bold text-primary tracking-widest uppercase">
-                    Discipline 03
+                    {t.d3_tag || "Discipline 03"}
                   </span>
                   <CloudCog className="w-5 h-5 text-primary" />
                 </div>
@@ -254,7 +254,7 @@ export default function ServicesClient({ dict, lang }: { dict: any, lang: string
               <motion.div variants={itemVariants} className="bg-white dark:bg-[#111111] p-8 md:p-10 flex flex-col h-full hover:bg-white/80 dark:hover:bg-[#111111]/80 transition-colors">
                 <div className="flex items-center justify-between mb-8">
                   <span className="text-[10px] font-bold text-primary tracking-widest uppercase">
-                    Discipline 04
+                    {t.d4_tag || "Discipline 04"}
                   </span>
                   <ShieldCheck className="w-5 h-5 text-primary" />
                 </div>
@@ -275,7 +275,7 @@ export default function ServicesClient({ dict, lang }: { dict: any, lang: string
               <motion.div variants={itemVariants} className="bg-white dark:bg-[#111111] p-8 md:p-10 flex flex-col h-full hover:bg-white/80 dark:hover:bg-[#111111]/80 transition-colors">
                 <div className="flex items-center justify-between mb-8">
                   <span className="text-[10px] font-bold text-primary tracking-widest uppercase">
-                    Discipline 05
+                    {t.d5_tag || "Discipline 05"}
                   </span>
                   <TrendingUp className="w-5 h-5 text-primary" />
                 </div>
@@ -296,7 +296,7 @@ export default function ServicesClient({ dict, lang }: { dict: any, lang: string
               <motion.div variants={itemVariants} className="bg-white dark:bg-[#111111] p-8 md:p-10 flex flex-col h-full hover:bg-white/80 dark:hover:bg-[#111111]/80 transition-colors">
                 <div className="flex items-center justify-between mb-8">
                   <span className="text-[10px] font-bold text-primary tracking-widest uppercase">
-                    Discipline 06
+                    {t.d6_tag || "Discipline 06"}
                   </span>
                   <ShieldCheck className="w-5 h-5 text-primary" />
                 </div>
@@ -352,10 +352,10 @@ export default function ServicesClient({ dict, lang }: { dict: any, lang: string
               <table className="w-full bg-white dark:bg-[#111111] text-left border-collapse min-w-[800px] border-x border-border/40">
                 <thead>
                   <tr className="border-t border-b border-border/40 text-[10px] text-secondary tracking-widest uppercase font-bold bg-white/50 dark:bg-[#111111]/50">
-                    <th className="py-6 px-4 font-bold w-[20%]">Normative Standard</th>
-                    <th className="py-6 px-4 font-bold w-[30%]">Application Scope</th>
-                    <th className="py-6 px-4 font-bold w-[35%]">QODEVS Deliverable Artifact</th>
-                    <th className="py-6 px-4 font-bold w-[15%]">Audit Authority</th>
+                    <th className="py-6 px-4 font-bold w-[20%]">{t.tbl_h1}</th>
+                    <th className="py-6 px-4 font-bold w-[30%]">{t.tbl_h2}</th>
+                    <th className="py-6 px-4 font-bold w-[35%]">{t.tbl_h3}</th>
+                    <th className="py-6 px-4 font-bold w-[15%]">{t.tbl_h4}</th>
                   </tr>
                 </thead>
                 <tbody className="text-sm">
@@ -363,7 +363,7 @@ export default function ServicesClient({ dict, lang }: { dict: any, lang: string
                   {/* Row 1 */}
                   <tr className="border-b border-border/40 hover:bg-white dark:hover:bg-[#111111] transition-colors">
                     <td className="py-6 px-4 font-bold text-foreground">ISO 13485:2016</td>
-                    <td className="py-6 px-4 text-secondary">Quality Management for Medical Devices</td>
+                    <td className="py-6 px-4 text-secondary">{t.tbl_row1_c2}</td>
                     <td className="py-6 px-4 text-secondary">Fully integrated eQMS processes, SOPs & Work Instructions</td>
                     <td className="py-6 px-4 text-[10px] text-secondary tracking-widest uppercase font-bold">TÜV / DEKRA / BSI</td>
                   </tr>
@@ -371,32 +371,32 @@ export default function ServicesClient({ dict, lang }: { dict: any, lang: string
                   {/* Row 2 */}
                   <tr className="border-b border-border/40 hover:bg-white dark:hover:bg-[#111111] transition-colors">
                     <td className="py-6 px-4 font-bold text-foreground">IEC 62304:2006 + A1:2015</td>
-                    <td className="py-6 px-4 text-secondary">Medical Device Software Life Cycle Processes</td>
-                    <td className="py-6 px-4 text-secondary">Software Architecture Spec, Software Test Documentation, Unit Traceability</td>
-                    <td className="py-6 px-4 text-[10px] text-secondary tracking-widest uppercase font-bold">Notified Bodies</td>
+                    <td className="py-6 px-4 text-secondary">{t.tbl_row2_c2}</td>
+                    <td className="py-6 px-4 text-secondary">{t.tbl_row2_c3}</td>
+                    <td className="py-6 px-4 text-[10px] text-secondary tracking-widest uppercase font-bold">{t.tbl_row2_c4}</td>
                   </tr>
 
                   {/* Row 3 */}
                   <tr className="border-b border-border/40 hover:bg-white dark:hover:bg-[#111111] transition-colors">
                     <td className="py-6 px-4 font-bold text-foreground">ISO 14971:2019</td>
-                    <td className="py-6 px-4 text-secondary">Application of Risk Management to Medical Devices</td>
+                    <td className="py-6 px-4 text-secondary">{t.tbl_row3_c2}</td>
                     <td className="py-6 px-4 text-secondary">FMEA, Hazard Analysis, Risk Management Plan & Final Report</td>
-                    <td className="py-6 px-4 text-[10px] text-secondary tracking-widest uppercase font-bold">Notified Bodies</td>
+                    <td className="py-6 px-4 text-[10px] text-secondary tracking-widest uppercase font-bold">{t.tbl_row2_c4}</td>
                   </tr>
 
                   {/* Row 4 */}
                   <tr className="border-b border-border/40 hover:bg-white dark:hover:bg-[#111111] transition-colors">
                     <td className="py-6 px-4 font-bold text-foreground">IEC 62366-1:2015</td>
-                    <td className="py-6 px-4 text-secondary">Usability Engineering for Medical Devices</td>
+                    <td className="py-6 px-4 text-secondary">{t.tbl_row4_c2}</td>
                     <td className="py-6 px-4 text-secondary">Use Specification, Formative & Summative Usability Protocols</td>
-                    <td className="py-6 px-4 text-[10px] text-secondary tracking-widest uppercase font-bold">Clinical Evaluators</td>
+                    <td className="py-6 px-4 text-[10px] text-secondary tracking-widest uppercase font-bold">{t.tbl_row4_c4}</td>
                   </tr>
 
                   {/* Row 5 */}
                   <tr className="border-b border-border/40 hover:bg-white dark:hover:bg-[#111111] transition-colors">
                     <td className="py-6 px-4 font-bold text-foreground">BSI TR-03161</td>
-                    <td className="py-6 px-4 text-secondary">Security Requirements for Digital Health Applications (DiGA)</td>
-                    <td className="py-6 px-4 text-secondary">Cryptographic Proof, Vulnerability Scan Artifacts, Penetration Report</td>
+                    <td className="py-6 px-4 text-secondary">{t.tbl_row5_c2}</td>
+                    <td className="py-6 px-4 text-secondary">{t.tbl_row5_c3}</td>
                     <td className="py-6 px-4 text-[10px] text-secondary tracking-widest uppercase font-bold">BSI / BFARM</td>
                   </tr>
 

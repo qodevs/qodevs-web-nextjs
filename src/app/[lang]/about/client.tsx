@@ -58,7 +58,7 @@ export default function AboutClient({ dict, lang }: { dict: any, lang: string })
 <div className="lg:col-span-7 flex flex-col items-start gap-6">
 <h3 className="font-label-regulatory text-label-regulatory tracking-widest uppercase text-secondary font-bold mb-1">{dict.about_values.leadership_title}</h3>
 <h2 className="font-headline-lg text-headline-lg text-on-surface tracking-tight">
-          Committed to the highest standards of digital transformation.
+          {dict.about_values.leadership_main_title || "Committed to the highest standards of digital transformation."}
         </h2>
 <div className="relative p-6 lg:p-8 bg-white rounded-sm">
 <span className="material-symbols-outlined text-primary/20 text-[56px] absolute -top-4 -left-2 select-none pointer-events-none">format_quote</span>
@@ -70,20 +70,20 @@ export default function AboutClient({ dict, lang }: { dict: any, lang: string })
 </div>
 </div>
 </section>
-{/*  SECTION 4: Core Values Grid (Why you should work with us)  */}
+{/*  SECTION 4: Core Values Grid ({dict.about_values.core_values_title})  */}
 <section className="w-full bg-muted/40 py-24 lg:py-32">
 <div className="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col items-center gap-16">
 {/*  Section Header  */}
 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.5 }} className="flex flex-col items-center text-center max-w-2xl gap-4">
 <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-muted">
 <span className="w-1.5 h-1.5 rounded-none bg-primary-container"></span>
-<span className="font-label-regulatory text-label-regulatory uppercase tracking-widest text-secondary font-bold">Our Core Values</span>
+<span className="font-label-regulatory text-label-regulatory uppercase tracking-widest text-secondary font-bold">{dict.about_values.core_values_tag}</span>
 </div>
 <h2 className="font-headline-lg text-headline-lg text-on-surface tracking-tight">
-          Why you should work with us
+          {dict.about_values.core_values_title}
         </h2>
 <p className="font-body-lg text-body-lg text-secondary">
-          Principles that drive our engineering discipline and client partnerships.
+          {dict.about_values.core_values_desc}
         </p>
 </motion.div>
 {/*  Values Grid: Balanced 3 Top, 2 Bottom Layout  */}

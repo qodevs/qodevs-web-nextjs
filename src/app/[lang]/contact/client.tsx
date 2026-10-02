@@ -46,17 +46,17 @@ export default function ContactClient({ dict, lang }: { dict: any, lang: string 
 <div className="p-4 rounded-sm bg-card space-y-2">
 <span className="text-xs uppercase tracking-wider font-semibold text-primary block">Calendar Scheduling</span>
 <p className="text-muted-foreground text-xs leading-relaxed">
-                Prefer a direct technical session? Reserve a 30-minute introductory architecture call with our principal engineers.
+                {t.cal_desc || "Prefer a direct technical session? Reserve a 30-minute introductory architecture call with our principal engineers."}
               </p>
 <a className="inline-block text-xs font-semibold text-primary hover:underline pt-1" href="#contact-form">
-                Fill the brief form to book →
+                {t.cal_btn || "Fill the brief form to book →"}
               </a>
 </div>
 </div>
 {/* Compliance Baseline */}
 <div className="flex items-center space-x-2 text-xs text-muted-foreground pt-2">
 <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>
-<span>Strict mutual NDA &amp; German/EU GDPR compliant.</span>
+<span>{t.strict_nda || "Strict mutual NDA & German/EU GDPR compliant."}</span>
 </div>
 </section>
 {/* END: LeftInfoColumn */}
@@ -66,8 +66,8 @@ export default function ContactClient({ dict, lang }: { dict: any, lang: string 
 {/* Form Card Header */}
 <div className="mb-8">
 <span className="text-xs uppercase tracking-widest font-semibold text-primary block mb-1">Inquiry Portal</span>
-<h2 className="text-2xl lg:text-3xl font-display font-bold text-foreground">Send a Message</h2>
-<p className="text-sm text-muted-foreground mt-1.5">Tell us about your device, clinical use-case, or regulatory milestones.</p>
+<h2 className="text-2xl lg:text-3xl font-display font-bold text-foreground">{t.send_msg_title || "Send a Message"}</h2>
+<p className="text-sm text-muted-foreground mt-1.5">{t.send_msg_desc || "Tell us about your device, clinical use-case, or regulatory milestones."}</p>
 </div>
 {/* Contact Form */}
 <form action="#" className="space-y-6" method="POST" onSubmit={(e) => e.preventDefault()}>
@@ -123,12 +123,12 @@ export default function ContactClient({ dict, lang }: { dict: any, lang: string 
 <label className="block text-xs font-semibold text-foreground tracking-wide mb-1.5 uppercase" htmlFor="projectOverview">
                   Project Overview <span className="text-rose-500">*</span>
 </label>
-<textarea className="w-full px-3.5 py-2.5 text-sm bg-background rounded-md border border-border text-foreground placeholder-muted-foreground/50 focus:bg-background focus:border-primary transition-all outline-none resize-y" id="projectOverview" name="projectOverview" placeholder="Tell us about your clinical product, technology stack, certification targets, or timeline goals..." required rows={4}></textarea>
+<textarea className="w-full px-3.5 py-2.5 text-sm bg-background rounded-md border border-border text-foreground placeholder-muted-foreground/50 focus:bg-background focus:border-primary transition-all outline-none resize-y" id="projectOverview" name="projectOverview" placeholder={t.f_overview_placeholder || "Tell us about your clinical product, technology stack, certification targets, or timeline goals..."} required rows={4}></textarea>
 </div>
 {/* Submit CTA Button */}
 <div>
 <button className="w-full py-3.5 px-6 rounded-md bg-primary hover:bg-primary/90 text-white text-sm font-semibold tracking-wide flex items-center justify-center space-x-2 transition-all shadow-sm" type="submit">
-<span>Send Message &amp; Request Consultation</span>
+<span>{t.f_submit_btn || "Send Message & Request Consultation"}</span>
 <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
 <path d="M14 5l7 7m0 0l-7 7m7-7H3" strokeLinecap="round" strokeLinejoin="round"></path>
 </svg>
@@ -136,7 +136,7 @@ export default function ContactClient({ dict, lang }: { dict: any, lang: string 
 </div>
 {/* Trust / Privacy Disclaimer */}
 <p className="text-center text-xs text-muted-foreground/70 pt-1">
-                Bilateral mutual NDA applied automatically upon submission. Zero spam policy.
+                {t.f_disclaimer || "Bilateral mutual NDA applied automatically upon submission. Zero spam policy."}
               </p>
 </form>
 </div>
@@ -150,7 +150,7 @@ export default function ContactClient({ dict, lang }: { dict: any, lang: string 
             Answers Before You Sign
           </span>
           <h2 className="font-headline-lg text-3xl lg:text-4xl text-on-surface mt-2 font-bold tracking-tight">
-            Frequently Asked Questions
+            {t.faq_title || "Frequently Asked Questions"}
           </h2>
           <p className="font-body-md text-body-md text-on-surface-variant mt-3 leading-relaxed">
             Clear architectural answers regarding intellectual property,

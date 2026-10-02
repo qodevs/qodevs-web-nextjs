@@ -54,19 +54,19 @@ export default function DigaClient({ dict, lang }: { dict: any, lang: string }) 
               {/* High-level Metric Strip */}
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
                 <div className="p-5 rounded-none bg-surface-container-low  flex flex-col gap-1">
-                  <span className="text-4xl font-bold text-primary">~73M</span>
-                  <span className="text-sm font-semibold text-foreground uppercase tracking-wider mt-2">Covered Lives</span>
-                  <span className="text-sm text-secondary">Statutory health insurance coverage across Germany</span>
+                  <span className="text-4xl font-bold text-primary">{t.m1_stat_num || "~73M"}</span>
+                  <span className="text-sm font-semibold text-foreground uppercase tracking-wider mt-2">{t.m1_stat_title || "Covered Lives"}</span>
+                  <span className="text-sm text-secondary">{t.m1_stat_desc || "Statutory health insurance coverage across Germany"}</span>
                 </div>
                 <div className="p-5 rounded-none bg-surface-container-low  flex flex-col gap-1">
-                  <span className="text-4xl font-bold text-primary">3 Mos</span>
-                  <span className="text-sm font-semibold text-foreground uppercase tracking-wider mt-2">Fast-Track Review</span>
-                  <span className="text-sm text-secondary">Formal BfArM evaluation timeline once dossier is filed</span>
+                  <span className="text-4xl font-bold text-primary">{t.m2_stat_num || "3 Mos"}</span>
+                  <span className="text-sm font-semibold text-foreground uppercase tracking-wider mt-2">{t.m2_stat_title || "Fast-Track Review"}</span>
+                  <span className="text-sm text-secondary">{t.m2_stat_desc || "Formal BfArM evaluation timeline once dossier is filed"}</span>
                 </div>
                 <div className="p-5 rounded-none bg-surface-container-low  flex flex-col gap-1">
-                  <span className="text-4xl font-bold text-primary">Class I/IIa</span>
-                  <span className="text-sm font-semibold text-foreground uppercase tracking-wider mt-2">Medical Scope</span>
-                  <span className="text-sm text-secondary">Eligible MDR classification under EU regulations</span>
+                  <span className="text-4xl font-bold text-primary">{t.m3_stat_num || "Class I/IIa"}</span>
+                  <span className="text-sm font-semibold text-foreground uppercase tracking-wider mt-2">{t.m3_stat_title || "Medical Scope"}</span>
+                  <span className="text-sm text-secondary">{t.m3_stat_desc || "Eligible MDR classification under EU regulations"}</span>
                 </div>
               </div>
             </section>
@@ -76,7 +76,7 @@ export default function DigaClient({ dict, lang }: { dict: any, lang: string }) 
               <div className="flex items-center gap-3">
                 <span className="w-2.5 h-2.5 bg-primary rounded-none"></span>
                 <h2 className="text-2xl font-bold text-foreground tracking-tight">
-                  How QODEVS Secures Your Approval
+                  {t.s2_title}
                 </h2>
               </div>
               <p className="text-base text-secondary">
@@ -89,7 +89,7 @@ export default function DigaClient({ dict, lang }: { dict: any, lang: string }) 
                     <span className="px-2.5 py-0.5 rounded-full bg-surface-container text-xs text-foreground uppercase tracking-wider font-bold">{t.m1_tag}</span>
                   </div>
                   <h3 className="text-lg font-bold text-foreground">
-                    Medical Device CE-Marking
+                    {t.m1_title}
                   </h3>
                   <p className="text-sm text-secondary leading-relaxed">
                     {t.m1_text}
@@ -101,7 +101,7 @@ export default function DigaClient({ dict, lang }: { dict: any, lang: string }) 
                     <span className="px-2.5 py-0.5 rounded-full bg-surface-container text-xs text-foreground uppercase tracking-wider font-bold">{t.m2_tag}</span>
                   </div>
                   <h3 className="text-lg font-bold text-foreground">
-                    Fast-Track Architecture
+                    {t.m2_title}
                   </h3>
                   <p className="text-sm text-secondary leading-relaxed">
                     {t.m2_text}
@@ -113,7 +113,7 @@ export default function DigaClient({ dict, lang }: { dict: any, lang: string }) 
                     <span className="px-2.5 py-0.5 rounded-full bg-surface-container text-xs text-foreground uppercase tracking-wider font-bold">{t.m3_tag}</span>
                   </div>
                   <h3 className="text-lg font-bold text-foreground">
-                    Clinical Study Integration
+                    {t.m3_title}
                   </h3>
                   <p className="text-sm text-secondary leading-relaxed">
                     {t.m3_text}
@@ -127,10 +127,10 @@ export default function DigaClient({ dict, lang }: { dict: any, lang: string }) 
               <span className="material-symbols-outlined text-primary text-3xl shrink-0 mt-0.5">format_quote</span>
               <div className="flex flex-col gap-2">
                 <blockquote className="text-xl font-semibold leading-snug">
-                  "Speed to market in digital health is not about cutting corners—it is about designing regulatory compliance into your software architecture from day one."
+                  {t.quote_text}
                 </blockquote>
                 <span className="text-xs uppercase tracking-widest text-muted-foreground mt-2 font-bold">
-                  QODEVS Core Engineering Principle
+                  {t.quote_tag}
                 </span>
               </div>
             </section>
@@ -140,7 +140,7 @@ export default function DigaClient({ dict, lang }: { dict: any, lang: string }) 
               <div className="flex items-center gap-3">
                 <span className="w-2.5 h-2.5 bg-primary rounded-none"></span>
                 <h2 className="text-2xl font-bold text-foreground tracking-tight">
-                  Why Health-Tech Leaders Choose Us
+                  {t.s3_title}
                 </h2>
               </div>
               <p className="text-base text-secondary">
@@ -152,7 +152,7 @@ export default function DigaClient({ dict, lang }: { dict: any, lang: string }) 
                     <span className="material-symbols-outlined text-xl">database</span>
                   </div>
                   <h3 className="text-lg font-semibold text-foreground">
-                    Compliance-First Architecture
+                    {t.p1_title}
                   </h3>
                   <p className="text-sm text-secondary leading-relaxed">
                     {t.p1_text}
@@ -163,7 +163,7 @@ export default function DigaClient({ dict, lang }: { dict: any, lang: string }) 
                     <span className="material-symbols-outlined text-xl">shield</span>
                   </div>
                   <h3 className="text-lg font-semibold text-foreground">
-                    Bulletproof Privacy Engineering
+                    {t.p2_title}
                   </h3>
                   <p className="text-sm text-secondary leading-relaxed">
                     {t.p2_text}
@@ -174,7 +174,7 @@ export default function DigaClient({ dict, lang }: { dict: any, lang: string }) 
                     <span className="material-symbols-outlined text-xl">clinical_notes</span>
                   </div>
                   <h3 className="text-lg font-semibold text-foreground">
-                    Clinical Data Telemetry
+                    {t.p3_title}
                   </h3>
                   <p className="text-sm text-secondary leading-relaxed">
                     {t.p3_text}
