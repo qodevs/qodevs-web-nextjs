@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Leistungen",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title1": "Entwicklung von",
+    "title2": "Gesundheits-Apps & DiGAs",
+    "desc": "Wir unterstützen Innovationstreiber im Gesundheitswesen bei der Entwicklung sicherer, skalierbarer und nutzerzentrierter medizinischer Anwendungen durch zertifizierte, agile Softwareentwicklung.",
+    "btn1": "Beratung buchen",
+    "btn2": "Unsere Leistungen entdecken"
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "who_we_are_title": "Wer wir sind",
+    "who_we_are_text1": "QODEVS Teknoloji Tic. ve San. LTD ŞTİ",
+    "who_we_are_text2": "KINIKLI MAH. HÜSEYİN YILMAZ CAD. PAMUKKALE ÜNIVERSITESİ NO: 67 İÇ KAPI NO: 4",
+    "who_we_are_text3": "Pamukkale/Denizli, Türkei",
+    "who_we_are_text4": "E-Mail: info@qodevs.com",
+    "as_of": "Stand: Oktober 2024",
+    "s1_title": "1. Allgemeine Informationen",
+    "s1_text": "Wir, die QODEVS Teknoloji Tic. ve San. LTD ŞTİ, nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Diese Datenschutzerklärung erklärt, wie wir Ihre personenbezogenen Daten erheben, verarbeiten und nutzen, wenn Sie unsere Website www.qodevs.com besuchen.",
+    "s2_title": "2. Verantwortliche Stelle",
+    "s2_text": "Die für die Datenverarbeitung verantwortliche Stelle ist:",
+    "s3_title": "3. Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck von deren Verwendung",
+    "s3_text": "Unsere Website dient in erster Linie der Bereitstellung von Informationen über unsere Dienstleistungen. Wir erheben keine personenbezogenen Daten, es sei denn, Sie kontaktieren uns über das Kontaktformular.",
+    "s4_title": "4. Kontaktformular",
+    "s4_text": "Wenn Sie uns über das Kontaktformular auf unserer Website kontaktieren, wird die von Ihnen angegebene E-Mail-Adresse ausschließlich zur Bearbeitung Ihrer Anfrage verwendet. Ihre Daten werden nach Bearbeitung Ihrer Anfrage nicht gespeichert.",
+    "s5_title": "5. Nutzung von Google Analytics",
+    "s5_text": "Unsere Website nutzt Google Analytics, einen Webanalysedienst der Google Inc. („Google“). Google Analytics verwendet Cookies, die eine Analyse der Nutzung der Website ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Nutzung unserer Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Diese Informationen werden verwendet, um die Nutzung der Website auszuwerten und Berichte über die Website-Aktivitäten zusammenzustellen. QODEVS speichert diese Daten nicht.",
+    "s6_title": "6. Ihre Rechte",
+    "s6_text": "Als Nutzer unserer Website haben Sie das Recht, jederzeit Auskunft über die von uns über Sie gespeicherten Daten zu verlangen. Da wir keine personenbezogenen Daten speichern, bearbeiten wir in der Regel keine Anfragen zu gespeicherten Daten.",
+    "s7_title": "7. Änderungen der Datenschutzerklärung",
+    "s7_text": "Wir behalten uns das Recht vor, diese Datenschutzerklärung jederzeit anzupassen, um sicherzustellen, dass sie den aktuellen rechtlichen Anforderungen entspricht. Die aktuelle Datenschutzerklärung kann jederzeit auf unserer Website unter www.qodevs.com/privacy-policy eingesehen werden."
+  },
+  "imprint": {
+    "title": "Impressum",
+    "info_title": "Angaben gemäß § 5 TMG",
+    "info_text1": "QODEVS Teknoloji Tic. ve San. LTD ŞTİ",
+    "info_text2": "KINIKLI MAH. HÜSEYİN YILMAZ CAD. PAMUKKALE ÜNIVERSITESİ NO: 67 İÇ KAPI NO: 4",
+    "info_text3": "Pamukkale/Denizli, Türkei",
+    "managing_director_title": "Vertretungsberechtigter Geschäftsführer:",
+    "managing_director_name": "Ömer Mutluel",
+    "contact_title": "Kontakt:",
+    "contact_phone": "Telefon: +49 152 562 10642",
+    "contact_email": "E-Mail: info@qodevs.com",
+    "responsible_title": "Verantwortlich für den Inhalt der Website:",
+    "responsible_name": "Ömer Mutluel",
+    "liability_content_title": "Haftung für Inhalte",
+    "liability_content_text1": "Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.",
+    "liability_content_text2": "Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.",
+    "liability_links_title": "Haftung für Links",
+    "liability_links_text": "Unsere Website enthält keine Links zu externen Websites Dritter. Sollten solche Links in Zukunft hinzugefügt werden, übernehmen wir keine Haftung für die Inhalte externer Seiten, auf die wir keinen Einfluss haben.",
+    "copyright_title": "Urheberrecht",
+    "copyright_text": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet."
+  },
+  "careers": {
+    "hero_title": "Karriere bei QODEVS",
+    "hero_desc": "Wir entwickeln Software, die Leben verändert. Werden Sie Teil eines Elite-Engineering-Teams, das sich klinischer Sicherheit, digitalen Fast-Track-Therapeutika und kompromissloser Qualität verschrieben hat.",
+    "openings_title": "Aktuelle Stellenangebote",
+    "no_openings_title": "Derzeit keine offenen Stellen.",
+    "no_openings_desc": "Wir suchen derzeit nicht aktiv nach neuem Personal, sind jedoch immer daran interessiert, uns mit außergewöhnlichen Talenten zu vernetzen. Schauen Sie später wieder vorbei oder folgen Sie uns auf LinkedIn.",
+    "why_work_with_us": "Warum Sie bei uns arbeiten sollten",
+    "benefit1_title": "Tiefgehender Engineering-Fokus",
+    "benefit1_desc": "Wir bauen keine oberflächliche Technik. Sie entwickeln geschäftskritische medizinische Systeme und DiGA-Plattformen, bei denen Ihr Code direkt das Leben von Patienten beeinflusst.",
+    "benefit2_title": "Elite-Engineering-Kultur",
+    "benefit2_desc": "Arbeiten Sie mit einem hochqualifizierten, remote-freundlichen Team in Europa und der Türkei zusammen und wahren Sie höchste europäische Software-Standards.",
+    "benefit3_title": "Kontinuierliches Wachstum",
+    "benefit3_desc": "Meistern Sie strenge regulatorische Rahmenbedingungen (ISO 13485, MDR), FHIR/HL7-APIs und Cloud-Architekturen. Wir investieren stark in Ihre Ausbildung."
+  }
+}
