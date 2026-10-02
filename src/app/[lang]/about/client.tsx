@@ -179,9 +179,9 @@ export default function AboutClient({ dict, lang }: { dict: any, lang: string })
 <section className="w-full border-t border-b border-border/40 bg-white/30 dark:bg-[#111111]/30 py-16">
   <div className="max-w-5xl mx-auto px-6 lg:px-12 flex flex-col items-center gap-10">
     <p className="font-label-md text-label-md text-secondary uppercase tracking-widest font-semibold text-center">{dict.about_values.trusted_title}</p>
-    <div className="flex flex-wrap items-center justify-center gap-12 lg:gap-24 transition-all duration-500">
-      <img src="/ref-mementor.png" alt="Mementor" className="h-12 md:h-14 lg:h-16 w-auto object-contain" />
-      <img src="/ref-mobilehealth.png" alt="Mobile Health" className="h-12 md:h-14 lg:h-16 w-auto object-contain" />
+    <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-12 lg:gap-24 transition-all duration-500">
+      <img src="/ref-mementor.png" alt="Mementor" className="h-8 sm:h-10 md:h-14 lg:h-16 w-auto object-contain" />
+      <img src="/ref-mobilehealth.png" alt="Mobile Health" className="h-8 sm:h-10 md:h-14 lg:h-16 w-auto object-contain" />
     </div>
   </div>
 </section>

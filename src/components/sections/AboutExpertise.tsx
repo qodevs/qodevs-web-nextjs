@@ -26,20 +26,20 @@ export function AboutExpertise({ dict }: { dict: any }) {
           </div>
           
           {/* Client Logos - Right side, centered vertically and horizontally side by side */}
-          <div className="flex items-center justify-center gap-12 w-full lg:w-auto lg:flex-1 transition-all duration-500">
+          <div className="flex items-center justify-center gap-6 md:gap-8 lg:gap-12 w-full lg:w-auto lg:flex-1 transition-all duration-500">
             <Image 
               src="/ref-mementor.png" 
               alt="Mementor" 
               width={260} 
               height={90} 
-              className="h-16 w-auto object-contain"
+              className="h-10 sm:h-12 md:h-14 lg:h-16 w-auto object-contain"
             />
             <Image 
               src="/ref-mobilehealth.png" 
               alt="Mobile Health" 
               width={260} 
               height={90} 
-              className="h-16 w-auto object-contain"
+              className="h-10 sm:h-12 md:h-14 lg:h-16 w-auto object-contain"
             />
           </div>
         </div>
