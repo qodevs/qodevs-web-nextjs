@@ -164,7 +164,7 @@ export default function ContactClient({ dict, lang }: { dict: any, lang: string 
           >
             <summary className="flex items-center justify-between gap-4 p-6 cursor-pointer list-none select-none">
               <div className="flex items-center gap-4">
-                <div className="w-9 h-9 rounded-full bg-primary text-[#0f766e] flex items-center justify-center shrink-0 border border-primary">
+                <div className="w-9 h-9 rounded-full bg-primary text-white flex items-center justify-center shrink-0 border border-primary">
                   <span className="material-symbols-outlined text-[20px]">
                     shield
                   </span>
@@ -192,7 +192,7 @@ export default function ContactClient({ dict, lang }: { dict: any, lang: string 
           <details className="group bg-surface-container-lowest rounded-sm border border-transparent hover:border-[#0d9488]/50 transition-all overflow-hidden">
             <summary className="flex items-center justify-between gap-4 p-6 cursor-pointer list-none select-none">
               <div className="flex items-center gap-4">
-                <div className="w-9 h-9 rounded-full bg-primary text-[#0f766e] flex items-center justify-center shrink-0 border border-primary">
+                <div className="w-9 h-9 rounded-full bg-primary text-white flex items-center justify-center shrink-0 border border-primary">
                   <span className="material-symbols-outlined text-[20px]">
                     verified
                   </span>
@@ -220,7 +220,7 @@ export default function ContactClient({ dict, lang }: { dict: any, lang: string 
           <details className="group bg-surface-container-lowest rounded-sm border border-transparent hover:border-[#0d9488]/50 transition-all overflow-hidden">
             <summary className="flex items-center justify-between gap-4 p-6 cursor-pointer list-none select-none">
               <div className="flex items-center gap-4">
-                <div className="w-9 h-9 rounded-full bg-primary text-[#0f766e] flex items-center justify-center shrink-0 border border-primary">
+                <div className="w-9 h-9 rounded-full bg-primary text-white flex items-center justify-center shrink-0 border border-primary">
                   <span className="material-symbols-outlined text-[20px]">
                     assignment_turned_in
                   </span>
@@ -247,7 +247,7 @@ export default function ContactClient({ dict, lang }: { dict: any, lang: string 
           <details className="group bg-surface-container-lowest rounded-sm border border-transparent hover:border-[#0d9488]/50 transition-all overflow-hidden">
             <summary className="flex items-center justify-between gap-4 p-6 cursor-pointer list-none select-none">
               <div className="flex items-center gap-4">
-                <div className="w-9 h-9 rounded-full bg-primary text-[#0f766e] flex items-center justify-center shrink-0 border border-primary">
+                <div className="w-9 h-9 rounded-full bg-primary text-white flex items-center justify-center shrink-0 border border-primary">
                   <span className="material-symbols-outlined text-[20px]">
                     groups
                   </span>
